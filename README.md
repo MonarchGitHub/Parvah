@@ -4,7 +4,7 @@
 - Quick access to patient's location 
 - Real-time tracking of ambulances near you
 
-#TechStack
+###### TechStack
 - React Native
 - Google API
 - Amazon Amplify
