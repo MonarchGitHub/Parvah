@@ -8,3 +8,5 @@
 - React Native
 - Google API
 - Amazon Amplify
+
+###### Still in development, you can create issues if you want to contribute 
