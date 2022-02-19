@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-parvah-dev-162706-authRole",
+      "UnauthRoleArn": "arn:aws:iam::517596499682:role/amplify-parvah-dev-162706-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::517596499682:role/amplify-parvah-dev-162706-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-parvah-dev-162706-deployment",
+      "UnauthRoleName": "amplify-parvah-dev-162706-unauthRole",
+      "StackName": "amplify-parvah-dev-162706",
+      "StackId": "arn:aws:cloudformation:ap-south-1:517596499682:stack/amplify-parvah-dev-162706/8cdab480-8284-11ec-8129-02951a23b7ee",
+      "AmplifyAppId": "d2gl8pwgw4zar8"
+    }
+  }
+}
