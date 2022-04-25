@@ -49,4 +49,4 @@ const App: () => React$Node = () => {
     </>
   );
 };
-export default AmbulanceScreen;
+export default HomeMap;
