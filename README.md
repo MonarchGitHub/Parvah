@@ -1,6 +1,5 @@
 # Parvah
 ## Live Ambulance Tracker for emergencies
-###### Features
 <div id="top"></div>
 
 [![Forks][forks-shield]][forks-url]
@@ -11,21 +10,21 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/MonarchGitHub/DeepMixDL">
-    <img src="https://cdn.discordapp.com/attachments/856800279411032067/979811325993693244/thumb-1920-975999.png" alt="Logo" >
+  <a href="https://github.com/MonarchGitHub/Parvah">
+    <img src="https://user-images.githubusercontent.com/74449136/165089795-38dfd39f-d436-4fb5-92f1-23824e60f3cd.png" width="400" height="750">
   </a>
 
-  <h3 align="center">Music Generation Through Deep Learning</h3>
+  <h3 align="center">Ambulance Tracker</h3>
 
   <p align="center">
-    An awesome DL model to generate simple music
+    An app that provides ambulance tracking service
     <br />
-    <a href="https://github.com/MonarchGitHub/DeepMixDL/blob/master/README.md"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/MonarchGitHub/Parvah/blob/master/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/MonarchGitHub/DeepMixDL">View Demo</a>
+    <a href="https://github.com/MonarchGitHub/Parvah">View Demo</a>
     ·
-    <a href="https://github.com/MonarchGitHub/DeepMixDL/issues">Report Bug</a>
+    <a href="https://github.com/MonarchGitHub/Parvah/issues">Report Bug</a>
   </p>
 </div>
 
@@ -56,18 +55,42 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-Music is a collection of tones of different frequencies. So, the Automatic Music Generation is a process of  composing a short piece of music with minimum human intervention.
-Long Short Term Memory Model, popularly known as LSTM, is a variant of Recurrent Neural Networks (RNNs) that is capable of capturing the long term dependencies in the input sequence. LSTM has a wide range of applications in Sequence-to-Sequence modeling tasks like Speech Recognition, Text Summarization, Video Classification, and so on.
+We have seen that often there is a disconnect between a patient and emergency services. To solve this I've been building this project and I hope that this will aid people and give them a sense of ease while in an emergency.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Built With
-
-- [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
-- [JQuery](https://jquery.com)
+### Description of the Technology-
+•    I’ve built this android app on top of React native that tracks the patient and driver's location using the Google Maps API. <br>
+•    The registration is done through Amazon Amplify. <br>
+•    Once the patient presses the ‘call ambulance’ button, nearest ambulance driver is alerted and their location, name and phone number is shared with the driver.<br>
+•    Nearest and most efficient route to patient is displayed to the driver.<br>
+•    Patient can see the estimated time till ambulance reaches them.
+<br>
+#### Built With
+- [ReactNative](https://reactnative.dev/)
+- [Amazon Amplify](https://aws.amazon.com/amplify/)
+- [Google Maps API](https://developers.google.com/maps)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+### Screenshots
+
+###### HomeScreen
+
+<br>
+
+![image](https://user-images.githubusercontent.com/74449136/165089813-51115eaa-6861-4bdc-bf72-c6991ff564e9.png)
+
+<br>
+
+###### Emergency Menu
+
+<br>
+
+
+![image](https://user-images.githubusercontent.com/74449136/165089730-cd368d81-e604-4897-9600-d5c4abad9ae0.png)
+
+<br>
 
 <!-- GETTING STARTED -->
 
@@ -89,7 +112,7 @@ _Below is an example of how you can instruct your audience on installing and set
 1. Clone the repo
 2. Install NPM packages
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/MonarchGitHub/Parvah.git
    ```
 3. Install NPM packages
 
@@ -103,13 +126,13 @@ _Below is an example of how you can instruct your audience on installing and set
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-See the [open issues](https://github.com/MonarchGitHub/DeepMixDL/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/MonarchGitHub/Parvah/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
-<!-- ## Contributing
+## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -120,7 +143,7 @@ Don't forget to give the project a star! Thanks again!
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request -->
+5. Open a Pull Request
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -138,74 +161,23 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Monarch - [@monarch_sv](https://twitter.com/monarch_sv)
 
-Project Link: [https://github.com/MonarchGitHub/DeepMixDL](https://github.com/MonarchGitHub/DeepMixDL)
+Project Link: [https://github.com/MonarchGitHub/Parvah](https://github.com/MonarchGitHub/Parvah)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
-
-## Acknowledgments
-
-- [Choose an Open Source License](https://choosealicense.com)
-- [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-- [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-- [Malven's Grid Cheatsheet](https://grid.malven.co/)
-- [Img Shields](https://shields.io)
-- [GitHub Pages](https://pages.github.com)
-- [Font Awesome](https://fontawesome.com)
-- [React Icons](https://react-icons.github.io/react-icons/search)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[forks-shield]:https://img.shields.io/github/forks/MonarchGitHub/DeepMixDL?style=for-the-badge
-[forks-url]: https://github.com/MonarchGitHub/DeepMixDL/network/members
-[stars-shield]: https://img.shields.io/github/stars/MonarchGitHub/DeepMixDL?style=for-the-badge
-[stars-url]: https://github.com/MonarchGitHub/DeepMixDL/stargazers
-[issues-shield]:https://img.shields.io/github/issues/MonarchGitHub/DeepMixDL?style=for-the-badge
-[issues-url]: https://github.com/MonarchGitHub/DeepMixDL/issues
+[forks-shield]:https://img.shields.io/github/forks/MonarchGitHub/Parvah?style=for-the-badge
+[forks-url]: https://github.com/MonarchGitHub/Parvah/network/members
+[stars-shield]: https://img.shields.io/github/stars/MonarchGitHub/Parvah?style=for-the-badge
+[stars-url]: https://github.com/MonarchGitHub/Parvah/stargazers
+[issues-shield]:https://img.shields.io/github/issues/MonarchGitHub/Parvah?style=for-the-badge
+[issues-url]: https://github.com/MonarchGitHub/Parvah/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/MonarchGitHub/DeepMixDL/blob/master/LICENSE.txt
-[product-screenshot]: images/screenshot.png
+[license-url]: https://github.com/MonarchGitHub/Parvah/blob/master/LICENSE.txt
 
-- Quick access to patient's location 
-- Real-time tracking of ambulances near you
-
-###### TechStack
-- React Native
-- Google API
-- Amazon Amplify
-
-### Screenshots
-###### Loading Screen
-<br>
-<br>
-<img src="https://user-images.githubusercontent.com/74449136/165089795-38dfd39f-d436-4fb5-92f1-23824e60f3cd.png" width="400" height="750">
-<br>
-<br>
-
-###### HomeScreen
-
-<br>
-<br>
-
-![image](https://user-images.githubusercontent.com/74449136/165089813-51115eaa-6861-4bdc-bf72-c6991ff564e9.png)
-
-<br>
-
-<br>
-
-###### Emergency Menu
-
-<br>
-<br>
-
-
-![image](https://user-images.githubusercontent.com/74449136/165089730-cd368d81-e604-4897-9600-d5c4abad9ae0.png)
-
-<br>
-<br>
-
-###### Still in development, you can create issues if you want to contribute 
